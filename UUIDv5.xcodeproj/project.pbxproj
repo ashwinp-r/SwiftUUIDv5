@@ -424,6 +424,9 @@
 						DevelopmentTeamName = "Danilo Topalovic (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
+					AB9CC4621D2958DD00160DA2 = {
+						DevelopmentTeam = G6CW59CC94;
+					};
 					AB9CC4731D29592500160DA2 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Q8NZG86Y6Z;
@@ -789,14 +792,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G6CW59CC94;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "UUIDv5 copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/UUIDv5/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.UUIDv5;
 				PRODUCT_MODULE_NAME = UUIDv5;
 				PRODUCT_NAME = UUIDv5;
 				SKIP_INSTALL = YES;
@@ -809,14 +814,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G6CW59CC94;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "UUIDv5 copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/UUIDv5/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.UUIDv5;
 				PRODUCT_MODULE_NAME = UUIDv5;
 				PRODUCT_NAME = UUIDv5;
 				SKIP_INSTALL = YES;
