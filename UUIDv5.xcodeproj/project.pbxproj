@@ -24,9 +24,7 @@
 		AB9CC49A1D2959BD00160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
 		AB9CC49B1D2959C600160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
 		FFA104E622CB3D2F00A09D0E /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
-		FFA104E722CB3D2F00A09D0E /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FFA104E922CB3D3300A09D0E /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
-		FFA104EA22CB3D3300A09D0E /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,31 +36,6 @@
 			remoteInfo = UUIDv5;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FFA104E822CB3D2F00A09D0E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FFA104E722CB3D2F00A09D0E /* CommonCrypto.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFA104EB22CB3D3300A09D0E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FFA104EA22CB3D3300A09D0E /* CommonCrypto.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB9CC4311D29476D00160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -303,7 +276,6 @@
 				AB9CC42D1D29476D00160DA2 /* Frameworks */,
 				AB9CC42E1D29476D00160DA2 /* Headers */,
 				AB9CC42F1D29476D00160DA2 /* Resources */,
-				FFA104E822CB3D2F00A09D0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -358,7 +330,6 @@
 				AB9CC4651D2958DD00160DA2 /* Frameworks */,
 				AB9CC4671D2958DD00160DA2 /* Headers */,
 				AB9CC4691D2958DD00160DA2 /* Resources */,
-				FFA104EB22CB3D3300A09D0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
