@@ -11,10 +11,8 @@
 		AB9CC43C1D29476E00160DA2 /* UUIDv5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4311D29476D00160DA2 /* UUIDv5.framework */; };
 		AB9CC44C1D294BCC00160DA2 /* UUID+V5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CC44B1D294BCC00160DA2 /* UUID+V5.swift */; };
 		AB9CC45E1D294C1400160DA2 /* CommonCrypto.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AB9CC45A1D294C1400160DA2 /* CommonCrypto.xcconfig */; };
-		AB9CC45F1D294C2800160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
 		AB9CC4611D294CC400160DA2 /* UUIDv5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CC4601D294CC400160DA2 /* UUIDv5Tests.swift */; };
 		AB9CC4641D2958DD00160DA2 /* UUID+V5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CC44B1D294BCC00160DA2 /* UUID+V5.swift */; };
-		AB9CC4661D2958DD00160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
 		AB9CC4681D2958DD00160DA2 /* UUIDv5.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9CC4341D29476D00160DA2 /* UUIDv5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB9CC4771D29592500160DA2 /* UUIDv5-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9CC4761D29592500160DA2 /* UUIDv5-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB9CC47C1D29593200160DA2 /* UUID+V5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CC44B1D294BCC00160DA2 /* UUID+V5.swift */; };
@@ -25,6 +23,10 @@
 		AB9CC4991D2959B300160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
 		AB9CC49A1D2959BD00160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
 		AB9CC49B1D2959C600160DA2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
+		FFA104E622CB3D2F00A09D0E /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
+		FFA104E722CB3D2F00A09D0E /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFA104E922CB3D3300A09D0E /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; };
+		FFA104EA22CB3D3300A09D0E /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,31 @@
 			remoteInfo = UUIDv5;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFA104E822CB3D2F00A09D0E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFA104E722CB3D2F00A09D0E /* CommonCrypto.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA104EB22CB3D3300A09D0E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFA104EA22CB3D3300A09D0E /* CommonCrypto.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB9CC4311D29476D00160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9CC45F1D294C2800160DA2 /* CommonCrypto.framework in Frameworks */,
+				FFA104E622CB3D2F00A09D0E /* CommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9CC4661D2958DD00160DA2 /* CommonCrypto.framework in Frameworks */,
+				FFA104E922CB3D3300A09D0E /* CommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +303,7 @@
 				AB9CC42D1D29476D00160DA2 /* Frameworks */,
 				AB9CC42E1D29476D00160DA2 /* Headers */,
 				AB9CC42F1D29476D00160DA2 /* Resources */,
+				FFA104E822CB3D2F00A09D0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,6 +358,7 @@
 				AB9CC4651D2958DD00160DA2 /* Frameworks */,
 				AB9CC4671D2958DD00160DA2 /* Headers */,
 				AB9CC4691D2958DD00160DA2 /* Resources */,
+				FFA104EB22CB3D3300A09D0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -774,7 +803,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB9CC45A1D294C1400160DA2 /* CommonCrypto.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G6CW59CC94;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
